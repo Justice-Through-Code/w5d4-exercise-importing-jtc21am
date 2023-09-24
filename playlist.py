@@ -7,7 +7,6 @@
 # 1.0 TODO: Import all of the functions in playlist_helpers.py into this file
 
 from numpy import *
-import numpy as np
 from playlist_helpers import *
 
 # This code initializes your playlist as an empty list. No songs in it yet!
@@ -59,7 +58,7 @@ print(get_playlist_length(my_playlist))
 # 8.0 TODO: using the mean() function from numpy, calculate and print the average of monthly_plays
 # You don't have to write any functions for this question
 monthly_plays = [127030, 274920, 232453, 98278, 500301, 235462]
-print(np.mean(monthly_plays))
+print(numpy.mean(monthly_plays))
 
 
 # 9.0 TODO: In playlist_helpers.py, define a new function called play_track()
